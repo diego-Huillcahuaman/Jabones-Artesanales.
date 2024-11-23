@@ -1,0 +1,36 @@
+<html>
+<head>
+<title>Contactos</title>
+</head>
+<body style="background-color: #f5f5dc; font-family: Arial, sans-serif;">
+     <h1>Contáctanos</h1>
+     <form action="/submit_form" method="POST">
+     <label for="name">Nombre:</label>
+     <input type="text" id="name" name="name" placeholder="Introduce tu nombre" required><br><br>
+     <label for="email">Correo Electronico:</label>
+     <input type="email" id="email" name="email" placeholder="Introduce tu correo electronico" required><br><br>
+     <label for="message">Mensaje:</label>
+     <textarea id="message" name="message" placeholder="Escribe tu mensaje aqui" required></textarea><br><br>
+     Sexo:<br><input type="radio" name="Sexo" value="M">Masculino<br>
+     <input type="radio" name="Sexo" value="F">Femenino<br><br>
+     <label>Residencia:</label>
+     <select name="funciones">
+         <option>Apipa</option>
+         <option>Caylloma</option>
+         <option>Cayma</option>
+         <option>otro</option>
+         </select>
+         <p>
+            <input type="checkbox" name="info" id="info" checked="checked" /> <label for="info">Deseo recibir informacion 
+            sobre novedades y ofertas</label>
+         </p>
+         <p>
+            <input type="checkbox" name="condiciones" id="condiciones" /> <label for="condiciones">Declaro haber leido y aceptar 
+            las condiciones generales del programay la normativa sobre proteccion de datos</label>
+        </p>
+     </select><br><br>
+     <input type="submit" value="Enviar">
+     <center><h2><a href="index.html">Inicio</a></h2></center>
+     </form>
+</body>
+</html>
